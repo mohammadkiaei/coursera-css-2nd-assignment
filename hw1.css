@@ -1,0 +1,112 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background: url('http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg') no-repeat;
+  height: 12rem;
+  background-size: 100%;
+  padding: 1%;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #000;
+  text-transform: capitalize;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  background-color: rgba(218, 234, 213, 0.6);
+  color: #000;
+  display: inline-block;
+  padding: 10px;
+  margin: 1%;
+  text-decoration: none;
+  border-radius: 5px;
+  width: 9rem;
+}
+
+.active {
+  background: #fff;
+}
+
+.left {
+  background: #808000;
+  width: 25%;
+  float: left;
+  height: 100vh;
+}
+
+.left img {
+  border: solid 2px #000;
+  width: 60%;
+  margin-left: 15%;
+  margin-top: 5%;
+  margin-right: 5%;
+}
+
+.right {
+  width: 58%;
+  display: inline-block;
+  padding-left: 2%;
+}
+
+table {
+  padding: 0.5rem;
+  margin: 0 auto;
+  line-height: 2rem;
+  width: 75%;
+  padding-bottom: 3rem;
+}
+
+th {
+  background-color: #9ACD32;
+  padding: 2%;
+  text-transform: uppercase;
+  font-size: 100%;
+  color: #fff;
+  line-height: 40px;
+  border-radius: 10px 10px 0 0;
+  border-bottom: 2px solid #339933;
+}
+
+th,
+tr td {
+  text-align: center;
+}
+
+th:first-child,
+tr td:first-child {
+  text-align: left;
+}
+
+tr td {
+  opacity: 0.6;
+}
+
+tr:hover td {
+  opacity: 1;
+  color: #339933;
+  font-size: 100%;
+  line-height: 60px;
+}
+
+td {
+  background-color: #90EE90;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-size: 90%;
+  border-bottom: 2px solid #ffffff;
+}
+
+
+/* Developed by SeyedMohammadMahdi Kiaei */
